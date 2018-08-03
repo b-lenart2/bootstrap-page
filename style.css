@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Slabo+27px");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Slabo 27px', serif; }
+
+ul {
+  padding: 20px 70px 20px 20px; }
+  ul a {
+    text-decoration: none;
+    color: #cecece;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    ul a:hover {
+      color: white !important; }
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background: url(pexels-photo-1048032.jpeg) center/cover no-repeat;
+  position: relative; }
+
+.main-title {
+  color: #d1d1d1;
+  font-family: 'Poiret One', cursive;
+  position: absolute;
+  top: 28%;
+  right: 26%; }
+  .main-title h1 {
+    font-size: 5rem;
+    position: relative;
+    left: -6px; }
+  .main-title p {
+    font-size: 1rem;
+    position: relative;
+    top: -10px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
+.go-down {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
