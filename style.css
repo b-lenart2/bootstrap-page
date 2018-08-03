@@ -5,8 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Slabo 27px', serif;
-  scroll-behavior: smooth; }
+  font-family: 'Slabo 27px', serif; }
 
 .nav {
   padding: 20px 70px 20px 20px; }
@@ -67,15 +66,95 @@ body {
 
 #about {
   padding-left: 5%;
-  padding-right: 5%; }
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-color: #ecff83; }
   #about h2 {
     font-size: 5rem;
     margin-bottom: 50px;
-    margin-top: 50px;
     font-family: 'Poiret One', cursive; }
   #about p:first-child {
     font-weight: 700;
     font-size: 1.2rem; }
+
+#events {
+  width: 90vw;
+  margin: 0 auto; }
+  #events h2 {
+    font-size: 5rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Poiret One', cursive; }
+
+#contact {
+  width: 90vw;
+  margin: 0 auto; }
+  #contact h2 {
+    font-size: 5rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Poiret One', cursive; }
+  #contact .contact-left {
+    background-color: #cccccc;
+    padding: 5% 5% 5% 10%; }
+  #contact .contact-right {
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color: #90c1c7; }
+  #contact p:first-child {
+    font-weight: 700;
+    font-size: 1.2rem; }
+  #contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    #contact form input[type="email"] {
+      border: none;
+      width: 80%;
+      padding-top: 2px;
+      padding-left: 5px;
+      outline: none;
+      -webkit-box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84);
+      box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84); }
+      #contact form input[type="email"]::-webkit-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form input[type="email"]:-ms-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form input[type="email"]::-ms-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form input[type="email"]::placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+    #contact form textarea {
+      overflow: auto;
+      resize: vertical;
+      margin-top: 15px;
+      outline: none;
+      width: 80%;
+      height: 120px;
+      border: none;
+      padding-top: 2px;
+      padding-left: 5px;
+      -webkit-box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84);
+      box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84); }
+      #contact form textarea::-webkit-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form textarea:-ms-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form textarea::-ms-input-placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+      #contact form textarea::placeholder {
+        color: rgba(98, 98, 98, 0.8); }
+
+footer {
+  text-align: center;
+  color: grey;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 @media (max-width: 768px) {
   .main-title {

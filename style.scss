@@ -8,7 +8,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Slabo 27px', serif;
-    scroll-behavior: smooth;
 }
 
 .nav {
@@ -81,10 +80,12 @@ body {
 #about {
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: #ecff83;
     h2 {
         font-size: 5rem;
         margin-bottom: 50px;
-        margin-top: 50px;
         font-family: 'Poiret One', cursive;
     }
     
@@ -92,6 +93,81 @@ body {
         font-weight: 700;
         font-size: 1.2rem;
     }
+}
+
+#events {
+    width: 90vw;
+    margin: 0 auto;
+    h2 {
+        font-size: 5rem;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Poiret One', cursive;
+    }
+}
+
+#contact {
+    width: 90vw;
+    margin: 0 auto;
+    h2 {
+        font-size: 5rem;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Poiret One', cursive;
+    }
+    .contact-left {
+        background-color: #cccccc;
+        padding: 5% 5% 5% 10%;
+    }
+    
+    .contact-right {
+        padding-top: 2%;
+        padding-left: 5%;
+        background-color: rgb(144, 193, 199);;
+    }
+    
+    p:first-child {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        input[type="email"] {
+            border: none;
+            width: 80%;
+            padding-top: 2px;
+            padding-left: 5px;
+            outline: none;
+            box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84);
+            &::placeholder {
+                color: rgba(98, 98, 98, 0.8);
+            }
+        }
+        
+        textarea {
+            overflow: auto;
+            resize: vertical;
+            margin-top: 15px;
+            outline: none;
+            width: 80%;
+            height: 120px;
+            border: none;
+            padding-top: 2px;
+            padding-left: 5px;
+            box-shadow: -2px 4px 12px rgba(185, 185, 185, 0.84);
+            &::placeholder {
+                color: rgba(98, 98, 98, 0.8);
+            }
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    color: grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 @media (max-width:768px) {
