@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Slabo+27px");
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Slabo 27px', serif; }
+  font-family: 'Slabo 27px', serif;
+  scroll-behavior: smooth; }
 
-ul {
+.nav {
   padding: 20px 70px 20px 20px; }
-  ul a {
+  .nav a {
     text-decoration: none;
     color: #cecece;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
-    ul a:hover {
+    .nav a:hover {
       color: white !important; }
 
 .main-container {
@@ -47,3 +51,15 @@ ul {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
+
+.second {
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 15%; }
+  .second > p {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 5rem; }
+  .second .price {
+    float: right;
+    margin: 0; }
