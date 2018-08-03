@@ -65,6 +65,7 @@ body {
     width: 100%;
     padding-right: 15%;
     padding-left: 15%;
+    padding-bottom: 5%;
     >p {
         text-align: center;
         font-family: 'Poiret One', cursive;
@@ -74,6 +75,54 @@ body {
     .price {
         float: right;
         margin: 0;
+    }
+}
+
+#about {
+    padding-left: 5%;
+    padding-right: 5%;
+    h2 {
+        font-size: 5rem;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Poiret One', cursive;
+    }
+    
+    p:first-child {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:768px) {
+    .main-title {
+        top: 62%;
+        right: 21%;
+    }
+    
+    .nav {
+        padding: 0;
+        background-color: white;
+        justify-content: center !important;
+        a {
+        color: rgb(62, 62, 62);
+
+        &:hover {
+            color: rgb(62, 62, 62) !important;
+        }}
+    }
+    
+    .second {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    
+    #about {
+        padding-right: 2%;
+        padding-left: 2%;
+        h2 {
+            text-align: center;
+        }
     }
 }
 
