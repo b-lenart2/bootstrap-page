@@ -118,12 +118,14 @@ body {
     .contact-left {
         background-color: #cccccc;
         padding: 5% 5% 5% 10%;
+        min-height: 300px;
     }
     
     .contact-right {
         padding-top: 2%;
         padding-left: 5%;
-        background-color: rgb(144, 193, 199);;
+        background-color: rgb(144, 193, 199);
+        min-height: 300px;
     }
     
     p:first-child {
@@ -200,5 +202,15 @@ footer {
             text-align: center;
         }
     }
+    
+    #contact {
+    .contact-left {
+        padding-top: 10%;
+    }
+    
+    .contact-right {
+        padding-top: 10%;
+        padding-left: 10%;
+        }}
 }
 

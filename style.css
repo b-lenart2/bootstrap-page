@@ -97,11 +97,13 @@ body {
     font-family: 'Poiret One', cursive; }
   #contact .contact-left {
     background-color: #cccccc;
-    padding: 5% 5% 5% 10%; }
+    padding: 5% 5% 5% 10%;
+    min-height: 300px; }
   #contact .contact-right {
     padding-top: 2%;
     padding-left: 5%;
-    background-color: #90c1c7; }
+    background-color: #90c1c7;
+    min-height: 300px; }
   #contact p:first-child {
     font-weight: 700;
     font-size: 1.2rem; }
@@ -177,4 +179,9 @@ footer {
     padding-right: 2%;
     padding-left: 2%; }
     #about h2 {
-      text-align: center; } }
+      text-align: center; }
+  #contact .contact-left {
+    padding-top: 10%; }
+  #contact .contact-right {
+    padding-top: 10%;
+    padding-left: 10%; } }
